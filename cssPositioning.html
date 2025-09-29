@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Margin and padding playground</title>
+    <title>Positioning playground</title>
     <style>
       main {
         border: 2px solid black;
@@ -14,13 +14,18 @@
         height: 50px;
         border: 2px solid black;
         margin: 10px;
-        padding: 10px;
+        padding: 5px;
+      }
+      .relativePositioning {
+        position: relative;
+        top: -100px;
+        left: 900px;
       }
     </style>
   </head>
   <body>
     <div>Content 1</div>
-    <div>Content 2</div>
+    <div class="relativePositioning">Content 2</div>
     <div>Content 3</div>
     <div>Content 4</div>
     <div>Content 5</div>
