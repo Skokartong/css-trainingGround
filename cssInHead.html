@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS in head</title>
     <style>
-      div {
+      div.positive {
+        background-color: blue;
+        color: whitesmoke;
+      }
+      div.negative {
         background-color: black;
         color: whitesmoke;
       }
     </style>
   </head>
   <body>
-    <div>CSS is Amazing!</div>
-    <div>CSS is Amazing...ly easy!</div>
+    <div class="positive">CSS is Amazing!</div>
+    <div class="negative">CSS is Amazing...ly easy!</div>
   </body>
 </html>
